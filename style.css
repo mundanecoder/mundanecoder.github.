@@ -1,0 +1,159 @@
+*{
+    margin : 0px;
+    padding: 0px;
+    font-family: 'Mukta', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(190, 164, 190, 0.377),rgb(95, 74, 78)),url(img/bg1.png);
+    background-position: center;
+    background-size: cover;
+    position : relative;
+}
+nav{
+    display: flex;
+    padding: 2% 4%; 
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width:150px ;
+    border-radius: 50%;
+}
+.navlinks{
+    flex:1px;
+    text-align: center;
+}
+.navlinks ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding:20px 20px ;
+    position: relative;
+    content: '';
+    color: rgb(10, 10, 131);
+
+}
+.navlinks ul li a{
+    color : rgb(71, 123, 131) ;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navlinks ul li a:hover{
+    color: rgb(10, 10, 131);
+    font-size: 20
+}
+.h1{
+    color:rgb(247, 104, 128);
+    border:px;
+    border-color: rgb(236, 47, 47);
+}
+.h6{
+    color:rgb(233, 118, 137);
+
+}
+
+.description-box{
+    width: 99%;
+    color:rgb(243, 150, 166);
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+.padding{
+    padding: 15px;;
+}
+.link{
+    margin: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(243, 150, 166);
+    border: 1px 2px solid violet;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+}
+.link:hover{
+    color:rgb(236, 183, 189);
+    background-color: gray;
+    font-size: 20px;
+    border: 1px;
+
+
+}
+/* .about{
+    display: flex;
+    padding: 2% 4%; 
+    justify-content: space-between;
+    align-items: center;
+    flex: 1px;
+    text-align: center;
+}  */
+.about ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding:20px 20px ;
+    position: relative;
+    content: '';
+    color: rgb(10, 10, 131);
+
+}.about{
+    width: 99%;
+    color:rgb(243, 150, 166);
+    top: 88%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 20px;
+
+}
+.a1{
+color: rgb(233, 212, 92);
+text-decoration: none;
+}
+.a2{
+color: rgba(95, 145, 209, 0.911);
+text-decoration:none;
+    
+}
+.a3{
+
+text-decoration: none;
+    
+}
+.a4{
+    color: rgb(44, 235, 235);
+    text-decoration: none;
+    
+}
+
+
+@media(max-width: 700px){
+    .h1{
+        color:rgb(247, 104, 128);
+        border:px;
+        border-color: rgb(236, 47, 47);
+        font-size: 20px;
+    }
+    .navlinks ul li{
+     display: block;
+    } 
+    .navlinks{
+        position:absolute; 
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align:center;
+        z-index: 2;
+
+
+    }
+    
+
+}
