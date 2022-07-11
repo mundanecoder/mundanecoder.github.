@@ -2,6 +2,7 @@
     margin : 0px;
     padding: 0px;
     font-family: 'Mukta', sans-serif;
+    color: beige;
 }
 .header{
     min-height: 100vh;
@@ -43,16 +44,15 @@ nav img{
     color: rgb(10, 10, 131);
     font-size: 20
 }
-.h1{
-    color:rgb(247, 104, 128);
+/* .h1{
+    color:rgb(195, 240, 122);
     border:px;
     border-color: rgb(236, 47, 47);
-}
-.h6{
-    color:rgb(233, 118, 137);
+} */
+/* .h6{
+    color:rgb(180, 26, 52);
 
-}
-
+} */
 .description-box{
     width: 99%;
     color:rgb(243, 150, 166);
@@ -112,26 +112,29 @@ nav img{
     font-size: 20px;
 
 }
-.a1{
+#a1{
 color: rgb(233, 212, 92);
 text-decoration: none;
 }
-.a2{
+#a2{
 color: rgba(95, 145, 209, 0.911);
 text-decoration:none;
     
 }
-.a3{
+#a3{
 
 text-decoration: none;
     
 }
-.a4{
+#a4{
     color: rgb(44, 235, 235);
     text-decoration: none;
     
 }
-
+.af:hover{
+    color: rgb(238, 228, 228);
+}
+/* 
 
 @media(max-width: 700px){
     .h1{
@@ -156,4 +159,4 @@ text-decoration: none;
     }
     
 
-}
+} */
