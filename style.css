@@ -14,10 +14,11 @@
 }
 nav{
     display: flex;
-   
-} padding: 2% 4%; 
+  
+    padding: 2% 4%; 
     justify-content: space-between;
     align-items: center;
+}
 nav img{
     width:150px ;
     border-radius: 50%;
@@ -122,6 +123,7 @@ text-decoration:none;
     
 }
 #a3{
+    color: blue;
 
 text-decoration: none;
     
