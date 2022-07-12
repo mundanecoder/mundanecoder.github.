@@ -16,7 +16,7 @@
 .header1{
     min-height :100vh;
     min-width: 100%;
-    background-image: linear-gradient(rgb(111, 156, 170, 0.377),rgb(79, 150, 111)),url(img/bg3.png);
+    background-image: linear-gradient(rgb(190, 164, 190, 0.377),rgb(95, 74, 78)),url(img/bg2.png);
     background-size:cover;
     position: relative;
     margin: 2px rgb(214, 96, 16);
@@ -47,9 +47,8 @@ nav{
     align-items: center;
 }
 nav img{
-    background-image: linear-gradient(rgb(97, 94, 94)) ;
-    width:100px ;
-    border-radius: 50%;
+    width:120px ;
+    border-radius: 60%;
 }
 .navlinks{
     flex:1px;
