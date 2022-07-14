@@ -72,15 +72,6 @@ nav img{
     color: rgb(10, 10, 131);
     font-size: 20
 }
-/* .h1{
-    color:rgb(195, 240, 122);
-    border:px;
-    border-color: rgb(236, 47, 47);
-} */
-/* .h6{
-    color:rgb(180, 26, 52);
-
-} */
 .description-box{
     width: 99%;
     color:rgb(243, 150, 166);
@@ -113,14 +104,6 @@ nav img{
 
 
 }
-/* .about{
-    display: flex;
-    padding: 2% 4%; 
-    justify-content: space-between;
-    align-items: center;
-    flex: 1px;
-    text-align: center;
-}  */
 .about ul li{
     text-decoration: none;
     display: inline-block;
